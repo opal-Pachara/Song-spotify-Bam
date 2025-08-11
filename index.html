@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>💗 This Song For You my love (Bam Jeerapa) 💗</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💗</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💗</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <h1>💗 This Song For You my love (Bam Jeerapa) 💗</h1>
+    <h3>Everday I Love You More Than Yesterday</h3>
+    <div class="love-message" id="loveMessage"></div>
+    <div class="iframe-wrap">
+      <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5vDcbRqsL4EmFjjzRP8zpq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+  <script>
+    // ข้อความบอกรักสุ่ม
+    const loveMessages = [
+      "แบม วันนี้เหนื่อยไมคะ ขอให้เพลงเหล่านี้ช่วยเติมพลังใจนะ 💖",
+      "รักแบมที่สุดในโลกเลยนะ ฟังเพลงนี้แล้วอย่าลืมคิดถึงเค้าด้วยน้า 🎶",
+      "ขอให้เพลงในวันนี้ช่วยให้แบมสดใสในวันรุ่งขึ้นนะคะ 😊",
+      "แฟนใครเก่งจังเลยเนี่ยทำงานมาเหนื่อย ๆ ยังมีเวลามาให้เค้าอีก 💕",
+      "คิดถึงแบมที่สุด เอาเพลงเหล่านี้ไปฟังในวันที่ไม่ได้อยู่ด้วยกันนะคะ 🥰",
+      "ขอบคุณที่เป็นกำลังใจให้กันเสมอ รักแบมนะ! 🥰"
+    ];
+    document.getElementById('loveMessage').innerText =
+      loveMessages[Math.floor(Math.random() * loveMessages.length)];
+  </script>
+</body>
+</html> 
